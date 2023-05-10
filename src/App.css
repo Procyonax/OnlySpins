@@ -9,8 +9,16 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    animation: App-logo-spin infinite 0.1s linear;
+  }
+  .pic {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+#pic {
+  height: 100px;
+  width: 100px;
 }
 
 .App-header {
